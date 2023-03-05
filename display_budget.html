@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f76a475ef7.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#DCC7BE"></body>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Budget Buddy</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">
+                        About
+                    </a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/index.html" class="button">
+                        Log Out
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="heading">
+        <h1>Total Family Monthly Income</h1>
+    </div>
+    <div class="input__box">
+        <input type="text" placeholder="Enter Total Monthly Income in Dollars" id="monthly_income">
+    </div>
+
+    <div class="next__btn">
+        <a href="/display_budget2.html" class="button">
+            Next
+        </a>
+    </div>
+
+    
+
+    <div class="income">
+        <h2>Total Monthly Income: </h2>
+        <h2 id="monthly_income"></h2>
+    </div>
+    <div class="housing">
+       <h2>Budget for Housing:</h2>
+       <h2 id="housing_budget"></h2>
+    </div>
+    <div class="transportation">
+        <h2>Budget for Transportation:</h2>
+        <h2>
+            <script>
+                var transport_budget  = document.getElementById("transportation_budget");    
+            </script>
+        </h2>
+     </div>
+     <div class="food">
+        <h2>Budget for Food:</h2>
+        <h2>
+            <script>
+                var food_budget  = document.getElementById("food_budget");    
+            </script>
+        </h2>
+     </div>
+     <div class="insurance">
+        <h2>Budget for Insurance:</h2>
+        <h2>
+            <script>
+                var personal_spending_budget  = document.getElementById("insurance_budget");    
+            </script>
+        </h2>
+     </div>
+     <div class="personal_spending">
+        <h2>Budget for Personal Spending:</h2>
+        <h2>
+            <script>
+                var personal_spending_budget  = document.getElementById("personal_spending_budget");    
+            </script>
+        </h2>
+     </div>
+     <div class="phone_internetBill">
+        <h2>Budget for Phone + Internet Bill:</h2>
+        <h2>
+            <script>
+                var phone_budget  = document.getElementById("phone_internet_bill");    
+            </script>
+        </h2>
+     </div>
+     <div class="savings">
+        <h2>Total Expected Savings:</h2>
+     </div>
+
+
+</body>
+</html>

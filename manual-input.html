@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f76a475ef7.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#DCC7BE"></body>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Budget Buddy</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">
+                        About
+                    </a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/index.html" class="button">
+                        Log Out
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Manual Input</h1>
+    <h2>Total Monthly Income: #</h2>
+    <div class="housing">
+       <h2>Housing</h2>
+       <input type="text" placeholder="Enter Monthly Spending for Housing" id="housing_budget">
+    </div>
+    <div class="transportation">
+        <h2>Transportation</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Transportation" id="transportation_budget">
+     </div>
+     <div class="food">
+        <h2>Food</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Food" id="food_budget">
+     </div>
+     <div class="insurance">
+        <h2>Insurance</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Insurance" id="insurance_budget">
+     </div>
+     <div class="personal_spending">
+        <h2>Personal Spending</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Personal Spending" id="personal_spending_budget">
+     </div>
+     <div class="phone_internet bill">
+        <h2>Phone + Internet Bill</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Phone + Internet Bill" id="phone_internet_budget">
+     </div>
+     <div class="allowance">
+        <h2>allowance (add profile for kids)</h2>
+        <input type="text" placeholder="Enter Monthly Spending for Allowance" id="allowance_budget">
+
+     </div> 
+     <div class="savings">
+        <h2>Savings</h2>
+        <input type="text" placeholder="Final Amount Saved" id="final_savings">
+     </div>
+
+
+     <script src ="budget_calc.js"></script> 
+</body>
+</html>
